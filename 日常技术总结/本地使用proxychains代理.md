@@ -32,7 +32,7 @@ cd proxychains-4.5
 make && make install-config
 ```
 
-至此安装完毕，进行客户端配置。有root权限安装的配置文件在`/etc/proxychains.conf`，用源码安装的配置文件在刚刚定义的位置`/home/user/proxychains/etx/proxychains.conf`，在配置文件最后一行去掉原始参数改成：
+至此安装完毕，进行客户端配置。有root权限安装的配置文件在`/etc/proxychains.conf`，用源码安装的配置文件在刚刚定义的位置`/home/user/proxychains/etc/proxychains.conf`，在配置文件最后一行去掉原始参数改成：
 
 ```
 socks5 服务器ip地址 socks5的端口号 socks5的用户名 对应的密码
