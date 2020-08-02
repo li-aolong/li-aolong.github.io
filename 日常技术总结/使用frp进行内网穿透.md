@@ -8,6 +8,10 @@
 
 先在https://github.com/fatedier/frp/releases下载frp所需文件，linux系统下载[linux_amd64](https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz)版本。
 
+```
+wget https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz
+```
+
 #### 1 服务端
 
 使用腾讯云服务器linux系统，先解压：

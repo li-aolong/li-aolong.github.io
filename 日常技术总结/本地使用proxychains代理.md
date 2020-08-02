@@ -47,7 +47,7 @@ vim ~/.bashrc
 将刚刚解压的文件夹添加进环境变量，最后加入一行：
 
 ```
-export PATH=$PATH:~/具体位置/proxychains/proxychains-4.5/
+export PATH=$PATH:~/具体位置/proxychains-4.5/
 ```
 
 更新环境变量：
@@ -61,7 +61,7 @@ source ~/.bashrc
 有root权限的使用`proxychains`命令，源码安装的使用`proxychains4`命令，在其它命令前加上该命令，则通过代理进行转发，如：
 
 ```
-proxychains curl myip.ipip.net
+proxychains4 curl myip.ipip.net
 ```
 
 若返回服务端的地址，则代理成功。
